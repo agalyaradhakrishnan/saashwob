@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-padding-top: 2.1rem;
+}
+.mhead{
+    display: inline-flex;
+}
+header{
+    box-shadow: 2px 2px 2px 2px solid rgb(155, 154, 154);
+    position: sticky;
+    top:0;
+}
+.logo{
+    display: inline-flex;
+    color: rgb(55, 250, 185);
+    font-size: 25px;
+    margin-left: 4%;
+
+}
+nav ul li {
+    list-style: none;
+    margin-left: 10%;
+   
+}
+li :hover{
+    color: rgb(55, 250, 185);
+    text-decoration: underline;
+}
+/*collapse*/
+
+/*collapse end*/
+.mhead ul{
+    margin-left: 480%;
+    display: inline-flex;
+}
+a{
+text-decoration: none;
+}
+.head-txt{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.lasthead ul{
+    display: inline-flex;
+}
+.lasthead li {
+    list-style: none;
+    margin-left: 5%;
+}
+.lasthead{
+    background-color:rgb(55, 250, 185) ;
+    line-height: 30px;
+    text-align: center;
+
+}
+.lasthead li a{
+    margin-left: -25%;
+
+}
+
+/*about*/
+
+.row-1{  
+display: flex;
+flex-wrap: wrap;
+}
+#about .col-1{
+    flex-basis: 50%;
+}
+.abt-img img{
+    width:50%; 
+    margin-left: 20%;
+}
+#about .col-2{
+    flex-basis: 50%;
+
+}
+.abt-txt p{
+    font-size: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+/*services*/
+#ser{
+    position: relative;
+    margin-top:7%;
+    width:100% ;
+    height: 100%;
+}
+.topic{
+    text-align: center; 
+}
+.row-2{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    flex-basis: 50%;
+}
+.col-3 p{
+    padding: 10px 10px;
+}
+.col-4{
+    flex-basis: 50%;
+}
+.col-4 p{
+    padding: 10px  10px;
+}
+/*work*/
+#work{
+    position: relative;
+    margin-top:4%;
+    width:100% ;
+    margin-top: 10%;
+}
+.topic-2{
+    text-align: center; 
+}
+.row-3{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-5{
+    flex-basis: 50%;
+}
+.col-6{
+    flex-basis: 50%;
+}
+.col-6 img{
+    height: 75%;
+}
+.row-4{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-7{
+    flex-basis: 50%;
+}
+
+.col-7 img{
+    height: 82%;
+}
+.col-8{
+    flex-basis: 50%;
+}
+/*home*/
+#home{
+    position: relative;
+    margin-top: 4%;
+}
+.row-5{
+    background-color: rgb(20, 235, 163);
+    width: 100%;
+    height: 100%;
+    
+}
+.htxt h4,.htxt h1{
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: rgb(13, 14, 13);
+    width: 100%;
+    height: 100%;   
+}
+.row-6{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-9{
+    flex-basis: 30%;
+}
+.col-10{
+    flex-basis: 30%;
+}
+.col-11{
+    flex-basis: 30%;
+}
+.txt1{
+    color: white;
+    margin-left: 4%;
+}
+.txt2{
+    color: white;
+    margin-left: 4%;   
+}
+.txt3 i{
+    border-radius: 50%;
+    padding: 5px 5px;
+    color: white;
+    background-color: rgb(55, 250, 185) ;
+}
+.txt3{
+    color: white;
+    margin-left: 4%;  
+}
+.lfooter{
+    background-color: rgb(82, 81, 81);
+    width: 90%;
+    text-align: center;
+    color: silver;
+    margin-left: 4.5%; 
+}
+@media (max-width: 576px) {    
+    .logo{
+       margin-right: 0%;
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-left: 3%;
+    }
+    .mhead ul{
+        margin-left: 150%;
+        font-size: 12px;
+    }
+    /*menubar*/
+    
+    /*menubar end*/
+
+
+    .head-txt{
+        font-size: 10px;
+        margin-top: 2%;
+        margin-top: 5%;
+    }
+    .lasthead li {
+        margin-left: 2%;
+    }
+    .lasthead{
+        line-height: 20px;
+         font-size:10px;
+         margin-top: 3%;
+    }
+    /*about*/
+
+    #about{ 
+    margin-top:15%;
+    }
+    #about .col-1{
+        flex-basis: 100%;
+    
+    }#about .col-2{
+        flex-basis: 100%;
+        margin-left: 5%;
+    }
+    .abt-img{
+        width:80%; 
+        margin-left: 20%;
+    }
+    .abt-txt p{
+        font-size: 12px;
+    }
+    button{
+        padding: 6px 10px;
+        font-size: 6px;
+       
+    }
+/*services*/
+
+    #ser{
+        margin-top:20%; 
+    }
+    .topic{
+        font-size:20px ; 
+    }
+    .col-3{
+        flex-basis: 100%;
+    }
+    .col-3 p{
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+    .col-4{
+        flex-basis: 100%;
+    }
+    .col-4 p{
+        font-size: 13px;
+        padding: 10px  10px;
+    }
+    /*works*/
+
+    .topic-2{
+        font-size:20px ; 
+
+    }
+    .col-5,.col-6,.col-7,.col-8{
+        flex-basis: 100%;
+    }
+    
+    .col-6 img{
+        height: 55%;
+    }
+    .col-7 img{
+        height: 60%;
+    }
+    .col-6,.col-7,.col-8,.col-9, h2{
+        font-size:15px ;
+        }
+        /*footer*/
+        .col-9,.col-10,.col-11{
+            flex-basis: 100%;
+           text-align: left;
+           margin-top: 2%;
+        }
+}
+
